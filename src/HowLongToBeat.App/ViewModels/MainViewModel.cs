@@ -24,7 +24,7 @@ public sealed class MainViewModel(
     private static readonly DisplayAlertParams FilterChangedAlertParams = new("",
         AppResources.FilterChangedMessage, AppResources.Yes, AppResources.No);
    
-    private const string SearchContextName = "SearchContextWrapperV3";
+    private const string SearchContextName = "SearchContextWrapperV4";
     private string _searchGameText = string.Empty;
     private GamesFilter _gameFilter = GamesFilter.Default;
     private bool _isLoading;
